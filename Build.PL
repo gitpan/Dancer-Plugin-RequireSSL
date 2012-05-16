@@ -19,14 +19,14 @@ my %module_build_args = (
     "Natal Ng\303\251tal"
   ],
   "dist_name" => "Dancer-Plugin-RequireSSL",
-  "dist_version" => "0.121331",
+  "dist_version" => "0.121370",
   "license" => "perl",
   "module_name" => "Dancer::Plugin::RequireSSL",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
-    "Dancer" => 0,
-    "Dancer::Plugin" => 0,
+    "Dancer" => "1.2001",
+    "perl" => "5.010",
     "strict" => 0,
     "warnings" => 0
   },

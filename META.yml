@@ -16,8 +16,8 @@ meta-spec:
   version: 1.4
 name: Dancer-Plugin-RequireSSL
 requires:
-  Dancer: 0
-  Dancer::Plugin: 0
+  Dancer: 1.2001
+  perl: 5.010
   strict: 0
   warnings: 0
-version: 0.121331
+version: 0.121370

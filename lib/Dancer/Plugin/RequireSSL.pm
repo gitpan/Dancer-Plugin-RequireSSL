@@ -8,11 +8,13 @@
 #
 package Dancer::Plugin::RequireSSL;
 {
-  $Dancer::Plugin::RequireSSL::VERSION = '0.121331';
+  $Dancer::Plugin::RequireSSL::VERSION = '0.121370';
 }
 
 use strict;
 use warnings;
+
+use 5.010;
 
 use Dancer ':syntax';
 use Dancer::Plugin;
@@ -71,7 +73,7 @@ Dancer::Plugin::RequireSSL - Configure your application to redirect all incoming
 
 =head1 VERSION
 
-version 0.121331
+version 0.121370
 
 =head1 SYNOPSIS
 
